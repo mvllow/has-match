@@ -1,0 +1,44 @@
+{
+	"name": "has-match",
+	"version": "0.0.0",
+	"description": "Check object value for match",
+	"license": "MIT",
+	"repository": "mvllow/has-match",
+	"funding": "https://github.com/sponsors/mvllow",
+	"author": {
+		"name": "mvllow",
+		"email": "mvllow@icloud.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"release": "np"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"object",
+		"search",
+		"match"
+	],
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"np": "^7.5.0",
+		"prettier": "^2.4.1",
+		"xo": "^0.46.4"
+	},
+	"prettier": {
+		"bracketSpacing": false,
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"xo": {
+		"prettier": true
+	}
+}
