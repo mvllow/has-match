@@ -11,7 +11,7 @@ export default function hasMatch(source, search, includeKeys) {
 		if (typeof value === 'string') {
 			const normalizedValue = source[key].normalize().toLowerCase()
 
-			return normalizedValue === normalizedSearch
+			return normalizedValue.includes(normalizedSearch)
 		}
 
 		if (Array.isArray(value)) {
@@ -19,7 +19,7 @@ export default function hasMatch(source, search, includeKeys) {
 				if (typeof item === 'string') {
 					const normalizedValue = item.normalize().toLowerCase()
 
-					return normalizedValue === normalizedSearch
+					return normalizedValue.includes(normalizedSearch)
 				}
 
 				return false
