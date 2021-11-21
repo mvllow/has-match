@@ -27,8 +27,3 @@ hasMatch(garden, 'sunny fields')
 hasMatch(garden, 'sunny fields', ['plants'])
 // => false
 ```
-
-## Related
-
-- [has-partial-match](https://github.com/mvllow/has-partial-match)
-- [filter-match](https://github.com/mvllow/filter-match)
