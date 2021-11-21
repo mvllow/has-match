@@ -18,7 +18,7 @@ const garden = {
 	plants: ['roses', 'lilies', 'gerberas'],
 }
 
-hasMatch(garden, 'roses')
+hasMatch(garden, 'gerb')
 // => true
 
 hasMatch(garden, 'sunny fields')
