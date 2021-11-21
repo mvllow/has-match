@@ -27,3 +27,21 @@ hasMatch(garden, 'sunny fields')
 hasMatch(garden, 'sunny fields', ['plants'])
 // => false
 ```
+
+**Filter**
+
+```js
+const gardens = [
+	{
+		name: 'Sunny Fields',
+		plants: ['roses', 'lilies', 'gerberas'],
+	},
+	{
+		name: 'Moony Meadows',
+		plants: ['cosmos', 'lilies', 'mushrooms'],
+	},
+]
+
+gardens.filter((garden) => hasMatch(garden, 'cosmos'))
+// => [{ name: 'Moony Meadows', plants: ['cosmos', 'lilies', 'mushrooms'] }]
+```
