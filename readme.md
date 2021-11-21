@@ -31,4 +31,4 @@ hasMatch(garden, 'sunny fields', ['plants'])
 ## Related
 
 - [has-partial-match](https://github.com/mvllow/has-partial-match)
-- [filter-match](https://github.com/mvllow/has-partial-match)
+- [filter-match](https://github.com/mvllow/filter-match)
