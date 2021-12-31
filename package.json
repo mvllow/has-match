@@ -1,6 +1,6 @@
 {
 	"name": "has-match",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Check object value for match",
 	"license": "MIT",
 	"repository": "mvllow/has-match",
