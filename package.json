@@ -10,6 +10,7 @@
 		"email": "mvllow@icloud.com"
 	},
 	"type": "module",
+	"exports": "./index.js",
 	"engines": {
 		"node": ">=12"
 	},
